@@ -1,4 +1,4 @@
-name: Electron Builder Action
+name: lyzhang1999/Electron Builder Action
 author: Samuel Meuli
 description: GitHub Action for building and releasing Electron apps
 

@@ -106,7 +106,7 @@ const runAction = () => {
 	setEnv("ADBLOCK", true);
 
 	log(`Installing dependencies using ${useNpm ? "NPM" : "Yarn"}…`);
-	run("cnpm install")
+	run("pnpm install")
 	//run(useNpm ? "npm install" : "yarn", pkgRoot);
 
 	// Run NPM build script if it exists
